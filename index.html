@@ -9,14 +9,17 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <h1><i class="fa fa-user-o"></i> Tableros Personales </h1>
+  <div id="header">
+    <h1 class='logo'><i class='fa fa-trello'></i> Trello</h1>
+  </div>
+  <h2><i class="fa fa-user-o"></i> Tableros Personales </h2>
   <div id="listas">
 
   </div>
   <div id="agregarLista">
     <h3> Agregar Lista </h3>
     <input type="text" id='listaNueva'>
-    <button id="btnAgregar" onclick="agregarLista();"> Crear Lista </button>
+    <button id="btnAgregar" onclick="agregarLista();"><i class="fa fa-list"></i> Crear Lista </button>
   </div>
   <script src='assets/js/trello.js'></script>
 </body>

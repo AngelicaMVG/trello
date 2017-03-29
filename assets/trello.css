@@ -1,1 +1,46 @@
+#listas{
+  border-radius: 5px;
+  background-color: #3272db;
+}
+#unorderedList{
+  font-size: 30px;
+  color: white;
+}
+#pendiente{
+  color: black;
+  font-size: 20px;
+}
+#header {
+    background: #026AA7;
+    overflow: hidden;
+    padding: 5px;
+    z-index: 10;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+h1{
+  font-size: 35px;
+  font-family: herculanum;
+  position: relative;
+}
+#btnAgregar{
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  font-family: fantasy;
+  font-size: 15px;
+}
 
+#btnAgregar:hover{
+  background-color:  #3272db;
+}
+
+#boton2{
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  font-family: fantasy;
+  font-size: 15px;
+}
+#boton2:hover{
+  background-color: #7ca8ef;
+}
