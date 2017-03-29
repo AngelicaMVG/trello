@@ -21,6 +21,7 @@ h1{
   font-size: 35px;
   font-family: herculanum;
   position: relative;
+  text-align: center;
 }
 #btnAgregar{
   border-radius: 5px;
@@ -43,4 +44,8 @@ h1{
 }
 #boton2:hover{
   background-color: #7ca8ef;
+}
+#titulo{
+  font-size: 17px;
+  font-family: monospace;
 }

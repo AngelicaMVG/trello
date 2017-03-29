@@ -18,6 +18,7 @@ function agregarLista(){
   ul.innerHTML = nueva;
   listas.appendChild(ul);
   titulo.innerHTML = 'Agregar Pendiente';
+  titulo.setAttribute('id','titulo');
   listas.appendChild(titulo);
   listas.appendChild(input);
   boton.innerHTML = 'Crear Pendiente';
@@ -27,6 +28,8 @@ function agregarLista(){
   boton.setAttribute('onclick', 'agregarPendiente()');
   boton.setAttribute('id', 'boton2')
   ul.setAttribute('id','unorderedList');
+
+
 }
 
 function agregarPendiente(){
